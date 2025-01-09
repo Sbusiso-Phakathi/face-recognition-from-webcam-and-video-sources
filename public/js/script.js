@@ -53,8 +53,6 @@ async function recognizeFaces() {
                 drawBox.draw(canvas)
             })
         }, 100)
-
-
         
     })
 }
