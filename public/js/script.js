@@ -59,7 +59,7 @@ async function recognizeFaces() {
 
 
 function loadLabeledImages() {
-    const labels = ['Black Widow', 'Captain America', 'Hawkeye' , 'Jim Rhodes', 'Tony Stark', 'Thor', 'Captain Marvel', 'Sbu']
+    const labels = ['Black Widow', 'Captain America', 'Hawkeye' , 'Jim Rhodes', 'Tony Stark', 'Thor', 'Captain Marvel', 'Sbu', 'Hardy']
     // const labels = ['Sbu'] // for WebCam
     return Promise.all(
         labels.map(async (label)=>{
